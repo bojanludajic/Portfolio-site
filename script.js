@@ -20,7 +20,7 @@ function typeWriter() {
     if (index < nameToType.length) {
         nameDisplay.textContent += nameToType.charAt(index);
         index++;
-        setTimeout(typeWriter, 150);
+        setTimeout(typeWriter, 125);
     }
 }
 
