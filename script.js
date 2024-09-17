@@ -10,3 +10,18 @@ toggleDarkModeBtn.addEventListener('click', () => {
         icon.classList.replace('bx-sun', 'bx-moon');
     }
 });
+
+
+const nameDisplay = document.getElementById('name-display');
+const nameToType = 'Bojan Ludajić';
+let index = 0;
+
+function typeWriter() {
+    if (index < nameToType.length) {
+        nameDisplay.textContent += nameToType.charAt(index);
+        index++;
+        setTimeout(typeWriter, 150);
+    }
+}
+
+typeWriter();
