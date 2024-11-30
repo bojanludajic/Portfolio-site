@@ -53,6 +53,10 @@ h1 {
     color: var(--icon-color);
 }
 
+#toggle-dark-mode:hover {
+    transform: rotate(20deg);
+}
+
 .footer {
     position: fixed;
     bottom: 20px;
@@ -64,3 +68,23 @@ h1 {
     font-size: 3em;
     font-family: monospace;
 }
+
+#projects-link {
+    position: fixed;
+    top: 25px;
+    right: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#projects-link:hover {
+    color: #DC143C;
+}
+
+
+
+
+
