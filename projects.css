@@ -5,11 +5,8 @@ body {
     color: var(--text-color);
     transition: background 0.3s, color 0.3s;
     padding-top: 60px;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height: auto;
+    overflow: visible;
 }
 
 :root {
@@ -83,9 +80,6 @@ main#projects {
     max-width: 1000px;
     width: 100%;
     padding-top: 20px;
-    max-height: calc(100vh - 100px);
-    overflow-y: auto;
-    overflow-x: hidden;
     margin: 0 auto;
     box-sizing: border-box;
 }
