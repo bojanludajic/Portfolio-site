@@ -57,7 +57,7 @@ h1 {
     transform: rotate(20deg);
 }
 
-.footer {
+#footer {
     position: fixed;
     bottom: 20px;
     font-size: 14px;

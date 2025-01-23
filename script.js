@@ -27,6 +27,9 @@ const nameToType = 'Bojan Ludajić';
 let index = 0;
 
 function typeWriter() {
+    if(!nameDisplay) {
+        return
+    }
     if (index < nameToType.length) {
         nameDisplay.textContent += nameToType.charAt(index);
         index++;
@@ -35,3 +38,5 @@ function typeWriter() {
 }
 
 typeWriter();
+
+const footer = document.getElementById("footer").textContent = `© ${new Date().getFullYear()} Bojan Ludajić`
