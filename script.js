@@ -39,4 +39,4 @@ function typeWriter() {
 
 typeWriter();
 
-const footer = document.getElementById("footer").textContent = `© ${new Date().getFullYear()} Bojan Ludajić`
+const footer = document.getElementById("footer").textContent = `© ${new Date().getFullYear()} Bojan Ludajić | bojan.ludajic@gmail.com`
